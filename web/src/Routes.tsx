@@ -4,6 +4,7 @@ import CreateOrphanage from './pages/CreateOrphanage'
 import Landing from './pages/Landing'
 import Orphanage from './pages/Orphanage'
 import OrphanagesMap from './pages/OrphanagesMap'
+import PageNotFound from './pages/PageNotFound'
 
 const Routes = () => {
   return (
@@ -13,6 +14,7 @@ const Routes = () => {
         <Route path='/app' component={OrphanagesMap}/>
         <Route path='/orphanages/create' component={CreateOrphanage}/>
         <Route path='/orphanages/:id' component={Orphanage}/>
+        <Route component={PageNotFound}/>
       </Switch>
     </BrowserRouter>
   )

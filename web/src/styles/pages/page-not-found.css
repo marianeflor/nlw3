@@ -1,0 +1,80 @@
+#page-not-found {
+  width: 100vw;
+  height: 100vh;
+  background: linear-gradient(329.54deg, #d129c9 0%, #c700b6 100%);
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#page-not-found .content-wrapper {
+  width: 100%;
+  max-width: 1100px;
+
+  height: 100%;
+  max-height: 680px;
+
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+  justify-content: space-between;
+
+  background: url("../../images/landing.svg") no-repeat 100% center;
+}
+
+#page-not-found .content-wrapper main {
+  max-width: 350px;
+}
+
+#page-not-found .content-wrapper main h1 {
+  font-size: 4.75rem;
+  font-weight: 900;
+  line-height: 4.375rem;
+}
+
+#page-not-found .content-wrapper main p {
+  margin-top: 2.5rem;
+  font-size: 1.5rem;
+  line-height: 2.125rem;
+}
+
+.content-wrapper .go-home {
+  margin-top: 0.5rem;
+  width: 5rem;
+  height: 5rem;
+  background-color: #12afcb;
+  border-radius: 1.875rem;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  transition: background-color 0.2s;
+}
+
+.content-wrapper .go-home:hover {
+  background-color: #ff92cd;
+}
+
+@media (max-width: 1100px) {
+  #page-not-found .content-wrapper {
+    max-width: 95%;
+    max-height: 95%;
+  }
+
+  #page-not-found .content-wrapper img {
+    width: 18rem;
+  }
+
+  #page-not-found .content-wrapper main {
+    max-width: 250px;
+  }
+}
+
+@media (max-width: 800px) {
+  #page-not-found .content-wrapper {
+    background: url("../../images/landing.svg") no-repeat 100% 20%;
+    background-size: 75%;
+  }
+}

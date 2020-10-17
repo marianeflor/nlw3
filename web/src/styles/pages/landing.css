@@ -30,15 +30,15 @@
 }
 
 #page-landing .content-wrapper main h1 {
-  font-size: 76px;
+  font-size: 4.75rem;
   font-weight: 900;
-  line-height: 70px;
+  line-height: 4.375rem;
 }
 
 #page-landing .content-wrapper main p {
-  margin-top: 40px;
-  font-size: 24px;
-  line-height: 34px;
+  margin-top: 2.5rem;
+  font-size: 1.5rem;
+  line-height: 2.125rem;
 }
 
 .content-wrapper .location {
@@ -46,8 +46,8 @@
   right: 0;
   top: 0;
 
-  font-size: 24px;
-  line-height: 34px;
+  font-size: 1.5rem;
+  line-height: 2.125rem;
 
   display: flex;
   flex-direction: column;
@@ -64,10 +64,10 @@
   right: 0;
   bottom: 0;
 
-  width: 80px;
-  height: 80px;
+  width: 5rem;
+  height: 5rem;
   background-color: #ffd666;
-  border-radius: 30px;
+  border-radius: 1.875rem;
 
   display: flex;
   align-items: center;
@@ -78,4 +78,26 @@
 
 .content-wrapper .enter-app:hover {
   background-color: #96feff;
+}
+
+@media (max-width: 1100px) {
+  #page-landing .content-wrapper {
+    max-width: 95%;
+    max-height: 95%;
+  }
+
+  #page-landing .content-wrapper img {
+    width: 18rem;
+  }
+
+  #page-landing .content-wrapper main {
+    max-width: 250px;
+  }
+}
+
+@media (max-width: 800px) {
+  #page-landing .content-wrapper {
+    background: url("../../images/landing.svg") no-repeat 70% 20%;
+    background-size: 75%;
+  }
 }
