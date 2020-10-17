@@ -1,4 +1,5 @@
 import React, { useState } from 'react'
+import { StatusBar } from 'expo-status-bar'
 import { StyleSheet, Text, View, Dimensions } from 'react-native'
 import MapView, { Callout, Marker, PROVIDER_GOOGLE } from 'react-native-maps'
 import { useNavigation, useFocusEffect } from '@react-navigation/native'
@@ -37,6 +38,7 @@ const OrphanagesMap = () => {
 
   return (
     <View style={styles.container}>
+      <StatusBar backgroundColor="#15C3D6" style={"light"} />
       <MapView
         provider={PROVIDER_GOOGLE}
         style={styles.map}
