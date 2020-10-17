@@ -163,14 +163,19 @@
   cursor: pointer;
   background: #3cdc8c;
   border-radius: 1.25rem;
-  color: #ffffff;
-  font-weight: 800;
 
   display: flex;
   justify-content: center;
   align-items: center;
 
   transition: background-color 0.2s;
+}
+
+.orphanage-details .orphanage-details-content button.contact-button a {
+  color: #ffffff;
+  font-weight: 800;
+
+  text-decoration: none;
 }
 
 .orphanage-details .orphanage-details-content button.contact-button svg {
