@@ -22,11 +22,11 @@ O Happy é uma aplicação que conecta pessoas à casas de acolhimento instituci
 
 ## Backend
 
-Adiciondo o contato por whatsapp ao banco de dados.
+Adicionado o contato por whatsapp ao banco de dados.
 
 ## Mobile
 
-Adiciondo:
+Adicionado:
 
 - Deeplink com o whatsapp;
 - Página inicial;
@@ -34,7 +34,7 @@ Adiciondo:
 
 ## Web
 
-Adiciondo:
+Adicionado:
 
 - Deeplink com o whatsapp;
 - Página não encontrada;
